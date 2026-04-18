@@ -122,7 +122,7 @@ healthcare-analytics-sql/
 │   └── 04_financial_analysis.sql
 └── insights/
     └── findings.md
-՝՝՝
+    ՝՝՝
 
 ---
 
@@ -143,5 +143,6 @@ healthcare-analytics-sql/
 *Radiologist transitioning into Health Data Analytics.*
 *Focused on SQL, healthcare data, and clinical insights.*
 
+```markdown
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/arpenik-mesropyan-694193219)
 [![GitHub](https://img.shields.io/badge/GitHub-Portfolio-black)](https://github.com/arpidata)
