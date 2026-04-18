@@ -135,7 +135,7 @@ healthcare-analytics-sql/
 3. **Create schema**: Run the command `CREATE SCHEMA analytics;`.
 4. **Run Tables Script**: Execute the SQL code in `schema/create_tables.sql` to set up the structure.
 5. **Import Data**: Import the CSV files from the `data/` folder into their respective tables using pgAdmin Import tool.
-6. **Analyze**: Execute the queries from the `sql_queries/` folder in order to see the results.
+6. **Analyze**: Execute the queries from the `analysis/` folder in order to see the results.
 
 ---
 
@@ -145,6 +145,5 @@ healthcare-analytics-sql/
 *Radiologist transitioning into Health Data Analytics.*
 *Focused on SQL, healthcare data, and clinical insights.*
 
-```markdown
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/arpenik-mesropyan-694193219)
 [![GitHub](https://img.shields.io/badge/GitHub-Portfolio-black)](https://github.com/arpidata)
