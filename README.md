@@ -9,13 +9,11 @@ SQL-based analysis of hospital operations, patient trends, and financial perform
 
 ## 📊 Data Source
 
-The dataset used in this project was sourced from **Kaggle**. It contains synthetic healthcare records, including:
+The dataset used in this project was sourced from Kaggle:
+**[Hospital Management Dataset](https://www.kaggle.com/datasets/kanakbaghel/hospital-management-dataset)** by Kanak Baghel
 
-* **Patient Demographics:** Age, gender, and insurance details.
-* **Clinical Visits:** Appointment history across multiple branches.
-* **Financial Transactions:** Billing amounts, payment statuses, and treatment costs.
-
-This data provides a realistic foundation for performing complex **SQL joins** and generating actionable **business intelligence**.
+It contains synthetic healthcare records, including patient demographics,
+clinical visits, and financial transactions.
 
 ## 📌 Project Overview
 
@@ -152,11 +150,21 @@ healthcare-analytics-sql/
 
 ---
 
+## ⚠️ Limitations
+
+- Dataset contains **50 patients and 200 appointments** — results are directional and not statistically generalizable.
+- Data is **synthetic**, meaning it may not reflect the full complexity of real-world clinical workflows.
+- Analysis covers a **single fiscal year (2023)** — longitudinal trends cannot be assessed.
+- No patient identifiers or sensitive data are included, in line with data privacy best practices.
+
+---
+
 ## 👤 Author
 
 **Arpenik**
 *Radiologist transitioning into Health Data Analytics.*
 *Focused on SQL, healthcare data, and clinical insights.*
+
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/arpenik-mesropyan-694193219)
 [![GitHub](https://img.shields.io/badge/GitHub-Portfolio-black)](https://github.com/arpidata)
