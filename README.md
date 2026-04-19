@@ -98,6 +98,7 @@ the highest no-show rate (**31%**)
 * **PostgreSQL** — Database and query execution
 * **pgAdmin** — Database management
 * **Git & GitHub** — Version control and portfolio
+* **AI Assistance (Gemini/Claude)** — Used for conceptualizing data visualizations and structuring the final report.
 
 ---
 
