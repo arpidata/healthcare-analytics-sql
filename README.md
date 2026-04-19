@@ -1,6 +1,6 @@
 # healthcare-analytics-sql
 
-SQL-based analysis of hospital operations, patient trends, and financial performance.
+SQL-based analysis of hospital operations, patient trends, and financial performance. #sql #postgresql #healthcare-analytics #data-analysis #health-tech #portfolio
 
 # 🏥 Hospital Data Analytics | SQL Portfolio Project
 
@@ -19,6 +19,8 @@ This data provides a realistic foundation for performing complex **SQL joins** a
 
 ## 📌 Project Overview
 
+---
+
 This project presents a comprehensive SQL analysis of a hospital
 database, covering patient behavior, clinical operations, treatment
 patterns, and financial performance.
@@ -26,6 +28,16 @@ patterns, and financial performance.
 The analysis was designed to simulate real-world healthcare analytics
 tasks — the type of work performed by Medical Data Analysts at
 hospitals, NGOs, and health-tech organizations.
+
+---
+
+## 📊 Dashboard Overview
+
+To better communicate the insights derived from this SQL analysis, I have included a conceptual dashboard. 
+
+![Hospital Dashboard Overview](insights/dashboard_analysis.png)
+
+> **Note on Methodology:** As I am currently focusing on mastering SQL for data extraction and analysis, this dashboard was conceptualized and generated using **AI assistance (Claude/Gemini)**. This visual representation is based on the actual query results obtained from the PostgreSQL database, used here to demonstrate how clinical data can be translated into business intelligence.
 
 ---
 
