@@ -1,6 +1,6 @@
 # healthcare-analytics-sql
 
-SQL-based analysis of hospital operations, patient trends, and financial performance. #sql #postgresql #healthcare-analytics #data-analysis #health-tech #portfolio
+SQL-based analysis of hospital operations, patient trends, and financial performance. 
 
 # 🏥 Hospital Data Analytics | SQL Portfolio Project
 
