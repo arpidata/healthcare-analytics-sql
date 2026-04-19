@@ -105,26 +105,26 @@ the highest no-show rate (**31%**)
 
 ```text
 healthcare-analytics-sql/
-├── README.md
 ├── data/
-│   ├── patients.csv
-│   ├── doctors.csv
 │   ├── appointments.csv
-│   ├── treatments.csv
-│   └── billing.csv
+│   ├── billing.csv
+│   ├── doctors.csv
+│   ├── patients.csv
+│   └── treatments.csv
 ├── schema/
-│   └── create_tables.sql
-├── sql_queries/
+│   ├── create_tables.sql
+│   └── erd_schema.png
+├── analysis/
 │   ├── 00_overview.sql
 │   ├── 01_patient_analysis.sql
 │   ├── 02_doctor_analysis.sql
 │   ├── 03_treatment_analysis.sql
 │   └── 04_financial_analysis.sql
-└── insights/
-    └── findings.md
+├── insights/
+│   ├── dashboard_analysis.png
+│   └── final_report.md
+└── README.md
 ```
-
-
 
 ---
 
