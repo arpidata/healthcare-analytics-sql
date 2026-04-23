@@ -1,0 +1,17 @@
+# Environment variables - NEVER commit this
+.env
+
+# PostgreSQL / Docker data
+postgres_data/
+pgadmin_data/
+*.sql.bak
+*.dump
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp

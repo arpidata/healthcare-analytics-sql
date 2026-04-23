@@ -1,6 +1,6 @@
 # healthcare-analytics-sql
 
-SQL-based analysis of hospital operations, patient trends, and financial performance. 
+SQL-based analysis of hospital operations, patient trends, and financial performance.
 
 # 🏥 Hospital Data Analytics | SQL Portfolio Project
 
@@ -31,7 +31,7 @@ hospitals, NGOs, and health-tech organizations.
 
 ## 📊 Dashboard Overview
 
-To better communicate the insights derived from this SQL analysis, I have included a conceptual dashboard. 
+To better communicate the insights derived from this SQL analysis, I have included a conceptual dashboard.
 
 ![Hospital Dashboard Overview](insights/dashboard_analysis.png)
 
@@ -152,10 +152,10 @@ healthcare-analytics-sql/
 
 ## ⚠️ Limitations
 
-- Dataset contains **50 patients and 200 appointments** — results are directional and not statistically generalizable.
-- Data is **synthetic**, meaning it may not reflect the full complexity of real-world clinical workflows.
-- Analysis covers a **single fiscal year (2023)** — longitudinal trends cannot be assessed.
-- No patient identifiers or sensitive data are included, in line with data privacy best practices.
+* Dataset contains **50 patients and 200 appointments** — results are directional and not statistically generalizable.
+* Data is **synthetic**, meaning it may not reflect the full complexity of real-world clinical workflows.
+* Analysis covers a **single fiscal year (2023)** — longitudinal trends cannot be assessed.
+* No patient identifiers or sensitive data are included, in line with data privacy best practices.
 
 ---
 
@@ -164,7 +164,6 @@ healthcare-analytics-sql/
 **Arpenik**
 *Radiologist transitioning into Health Data Analytics.*
 *Focused on SQL, healthcare data, and clinical insights.*
-
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/arpenik-mesropyan-694193219)
 [![GitHub](https://img.shields.io/badge/GitHub-Portfolio-black)](https://github.com/arpidata)
