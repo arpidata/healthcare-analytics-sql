@@ -162,12 +162,13 @@ healthcare-analytics-sql/
 ```
 3. Create a `.env` file based on the example:
 
+```env
    POSTGRES_DB=healthcare_project
    POSTGRES_USER=analyst
    POSTGRES_PASSWORD=your_password
    PGADMIN_EMAIL=your_email@example.com
    PGADMIN_PASSWORD=your_pgadmin_password
-
+```
 4. Start the containers:
 ```bash
    docker-compose up -d
