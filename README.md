@@ -7,7 +7,7 @@ SQL-based analysis of hospital operations, patient trends, and financial perform
 ![SQL](https://img.shields.io/badge/SQL-PostgreSQL-blue)
 ![Status](https://img.shields.io/badge/Status-Completed-green)
 
-## 📊 Data Source
+## Data Source
 
 The dataset used in this project was sourced from Kaggle:
 **[Hospital Management Dataset](https://www.kaggle.com/datasets/kanakbaghel/hospital-management-dataset)** by Kanak Baghel
@@ -15,7 +15,7 @@ The dataset used in this project was sourced from Kaggle:
 It contains synthetic healthcare records, including patient demographics,
 clinical visits, and financial transactions.
 
-## 📌 Project Overview
+## Project Overview
 
 ---
 
@@ -29,7 +29,7 @@ hospitals, NGOs, and health-tech organizations.
 
 ---
 
-## 📊 Dashboard Overview
+## Dashboard Overview
 
 To better communicate the insights derived from this SQL analysis, I have included a conceptual dashboard.
 
@@ -39,7 +39,7 @@ To better communicate the insights derived from this SQL analysis, I have includ
 
 ---
 
-## 🗂 Database Schema (ERD)
+## Database Schema (ERD)
 
 Below is the Entity Relationship Diagram showing the connections between Patients, Doctors, Appointments, and Treatments.
 
@@ -47,7 +47,7 @@ Below is the Entity Relationship Diagram showing the connections between Patient
 
 ---
 
-## 🗄️ Database Structure
+## Database Structure
 
 | Table | Rows | Description |
 |-------|------|-------------|
@@ -59,27 +59,27 @@ Below is the Entity Relationship Diagram showing the connections between Patient
 
 ---
 
-## 🔍 Analysis Sections
+## Analysis Sections
 
-### 👥 1. Patient Demographics & Retention
+### 1. Patient Demographics & Retention
 
 * Gender and age group distribution
 * Loyal patient identification (3+ visits)
 * Insurance provider market share
 
-### 🩺 2. Clinical Operations & Efficiency
+### 2. Clinical Operations & Efficiency
 
 * Doctor workload ranking
 * No-show rate analysis by doctor
 * Branch performance comparison
 
-### 💊 3. Treatment & Service Insights
+### 3. Treatment & Service Insights
 
 * Most performed treatments
 * Revenue contribution by treatment type
 * Average cost analysis
 
-### 💰 4. Financial Health & Revenue Trends
+### 4. Financial Health & Revenue Trends
 
 * Monthly revenue dynamics
 * Cumulative revenue (Running Total)
@@ -88,7 +88,7 @@ Below is the Entity Relationship Diagram showing the connections between Patient
 
 ---
 
-## 💡 Key Findings
+## Key Findings
 
 * **76%** of patients are returning visitors (3+ visits)
 * **Central Hospital** handles 42% of appointments but has
@@ -103,16 +103,17 @@ the highest no-show rate (**31%**)
 
 ---
 
-## 🛠️ Tools Used
+## Tools Used
 
 * **PostgreSQL** — Database and query execution
 * **pgAdmin** — Database management
+* **Docker & Docker Compose** — Reproducible environment setup* 
 * **Git & GitHub** — Version control and portfolio
 * **AI Assistance (Gemini/Claude)** — Used for conceptualizing data visualizations and structuring the final report.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 healthcare-analytics-sql/
@@ -122,6 +123,11 @@ healthcare-analytics-sql/
 │   ├── doctors.csv
 │   ├── patients.csv
 │   └── treatments.csv
+├── init/
+│   ├── 01_create_extensions.sql
+│   ├── 02_create_schema.sql
+│   ├── 03_create_tables.sql
+│   └── 04_load_data.sql
 ├── schema/
 │   ├── create_tables.sql
 │   └── erd_schema.png
@@ -134,6 +140,11 @@ healthcare-analytics-sql/
 ├── insights/
 │   ├── dashboard_analysis.png
 │   └── final_report.md
+├── docs/
+│   └── data_dictionary.md
+├── docker-compose.yaml
+├── .env
+├── .gitignore
 └── README.md
 ```
 
@@ -141,12 +152,34 @@ healthcare-analytics-sql/
 
 ## 🚀 How to Run
 
-1. **Install PostgreSQL and pgAdmin**: Make sure you have them installed on your machine.
-2. **Create a new database**: Name it `healthcare_project`.
-3. **Create schema**: Run the command `CREATE SCHEMA analytics;`.
-4. **Run Tables Script**: Execute the SQL code in `schema/create_tables.sql` to set up the structure.
-5. **Import Data**: Import the CSV files from the `data/` folder into their respective tables using pgAdmin Import tool.
-6. **Analyze**: Execute the queries from the `analysis/` folder in order to see the results.
+### Option A — Docker (Recommended)
+
+1. Make sure [Docker Desktop](https://www.docker.com/products/docker-desktop/) is installed.
+2. Clone the repository:
+```bash
+   git clone https://github.com/arpidata/healthcare-analytics-sql.git
+   cd healthcare-analytics-sql
+```
+3. Create a `.env` file based on the example:
+
+   POSTGRES_DB=healthcare_project
+   POSTGRES_USER=analyst
+   POSTGRES_PASSWORD=your_password
+   PGADMIN_EMAIL=your_email@example.com
+   PGADMIN_PASSWORD=your_pgadmin_password
+
+4. Start the containers:
+```bash
+   docker-compose up -d
+```
+5. Open pgAdmin at `http://localhost:8080` and run the analysis queries from the `analysis/` folder.
+
+### Option B — Manual Setup
+
+1. Install PostgreSQL and pgAdmin.
+2. Create a new database: `healthcare_project`.
+3. Run scripts from the `init/` folder in order (01 → 04).
+4. Execute queries from the `analysis/` folder.
 
 ---
 
